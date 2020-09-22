@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html, .main-container {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-image: url(./assets/space-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: Helvetica, Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.main-container {
+    color: #e7f0f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .item-main {
+
+} */
+
+.display {
+    font-size: 260px;
+}
+
+.btn-counter {
+    color: white;
+    background: #171e2e;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.btn-counter:hover {
+    animation-name: btnalter;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes btnalter {
+  0% {
+    color: white;
+    background: #171e2e;
+  }
+  100% {
+    color: rgb(0, 65, 65);
+    background: #e9b6a1;
+  }
+}
+
